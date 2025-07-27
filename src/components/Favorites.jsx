@@ -2,7 +2,6 @@ import React from "react";
 import WordCard from "./WordCard";
 
 export default function Favorites({ favorites = [], wordList = [], toggleFavorite }) {
-  // Ensure both favorites and wordList are arrays
   const favWords = Array.isArray(wordList) && Array.isArray(favorites)
     ? wordList.filter((w) => favorites.includes(w.word))
     : [];

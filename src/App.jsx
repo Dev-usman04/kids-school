@@ -68,7 +68,7 @@ export default function App() {
       </main>
 
       <footer className="text-center py-4 text-sm text-gray-500">
-        © 2025 Dictionary Builder for Kids. Made with ❤️.
+        © 2025 DevDre Dictionary Builder for Kids. Made with react && ❤️.
       </footer>
     </div>
   );

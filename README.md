@@ -1,12 +1,32 @@
-# React + Vite
+Dictionary Builder for Kids - Project Summary
+Overview
+This is a React-based educational application designed to help children build their vocabulary through an interactive dictionary interface.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Key Features
+Word of the Day: Displays a randomly selected word to engage users
+Search Functionality: Allows users to search for specific words
 
-Currently, two official plugins are available:
+Category Filter: Words can be filtered by categories
+Favorites System: Users can mark words as favorites and access them later
+Responsive Design: Works across different screen sizes
+Technical Implementation
+State Management:
+Uses React's useState for managing:
+Search terms
+Category filters
+Favorite words
+Implements localStorage for persistent favorites storage
+Main Components:
+Data Flow:
+Word data is stored in a central data file
+Favorites are managed through the toggleFavorite function
+Search and category filters work together to display relevant words
+User Interface
+Pink-themed design with kid-friendly aesthetics
+Card-based layout for word display
+Interactive heart icons for favoriting words
+Responsive grid system for different screen sizes
+Getting Started
+This application provides an engaging way for children to explore and learn new words while maintaining their favorite words list for future reference.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+This solution provides an engaging way for children to explore and learn new words while maintaining their favorite words list for future reference.
